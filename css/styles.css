@@ -1,0 +1,178 @@
+body {
+  background-color: #EDEFF0;
+  font-family: 'Varela Round', sans-serif;
+  color: #809092;
+}
+
+.nav {
+  text-align: center;
+}
+
+h3 {
+  color: #4B5658;
+  margin-top: -10px;
+}
+
+.container {
+  width: 1100px;
+  display: block;
+  margin: auto;
+}
+
+.header {
+  height: 60px;
+  border-radius: 5px 5px 0 0;
+  color: white;
+
+}
+
+.header p {
+  font-weight: 700;
+}
+
+.content p:first-child {
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  margin: 20px;
+  float: left;
+  border-radius: 5px;
+}
+
+.header::before {
+  content: url('../img/open-book.png');
+  position: relative;
+  top: 18px;
+  left: 25px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #EAEDEF;
+  background-color: white;
+  margin-top: 40px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
+}
+
+img {
+  width: 35px;
+  height: auto;
+  float: right;
+  margin-top: 45px;
+}
+
+img:last-child {
+  margin-right: 10px;
+}
+
+.course-java {
+  color: #2C9676;
+}
+
+.level {
+  color: #809092;
+}
+
+.content {
+  margin: 25px;
+}
+
+/*Java Boxes*/
+#javafx {
+  background-color: #2C9676;
+}
+
+#java {
+  background-color: #2C9676;
+}
+
+#java::after {
+  content: '\25CB \0020 \25CB';
+  font-size: 20px;
+  position: relative;
+  top: 13px;
+  left: 35px;
+  opacity: 0.3;
+}
+
+#java p {
+  float: right;
+  margin-right: 25px;
+  margin-top: 22px;
+}
+
+/*Python Box*/
+#python {
+  background-color: #F092B0;
+}
+
+#python p {
+  float: right;
+  margin-right: 25px;
+  margin-top: 22px;
+}
+
+#python::after {
+  content: '\25CB \0020 \25CB \0020 \25CB';
+  font-size: 20px;
+  position: relative;
+  top: 13px;
+  left: 35px;
+  opacity: 0.3;
+}
+
+.course-python {
+  color: #F092B0;
+}
+
+/*Wordpress Box*/
+
+#wordpress {
+  background-color: #838CC7;
+}
+
+#wordpress p {
+  float: right;
+  margin-right: 25px;
+  margin-top: 22px;
+}
+
+#wordpress::after {
+  content: '\25CB \0020 \25CB \0020 \25CB \0020 \25CB \0020 \25CB';
+  font-size: 20px;
+  position: relative;
+  top: 13px;
+  left: 35px;
+  opacity: 0.3;
+}
+
+.course-wordpress {
+  color: #838CC7;
+}
+
+/*JavaFX Box*/
+
+#javafx p {
+  float: right;
+  margin-right: 25px;
+  margin-top: 22px;
+}
+
+#javafx::after {
+  content: '\25CB \0020 \25CB \0020 \25CB \0020 \25CB \0020 \25CB';
+  font-size: 20px;
+  position: relative;
+  top: 13px;
+  left: 35px;
+  opacity: 0.3;
+}
